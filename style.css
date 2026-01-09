@@ -42,7 +42,8 @@
 .btn{
     padding: 12px 16px;
     background-color: #469165;
-    
+    font-size: 16px;
+    font-weight: 500;
     border-style: none;
     border-radius: 4px;
 }
@@ -70,15 +71,20 @@
 }
 
 
-.hero-early-btn button {
-    padding: 10px 16px 10px 34px;
-  border-radius: 100px;
-  color: #469165;
-  font-size: 16px;
-  background-color: white;
-  border: none;
-  margin-bottom: 16px;
+.hero-early-btn > button {
+	display: inline-flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	padding: 8px 12px;
+	color: #469165;
+	background: white;
+	border-radius: 28px;
+	border: 1px solid white;
+	font-size: 16px;
+	font-weight: 500;
 }
+
 
 .hero-info {
     max-width: 770px;
@@ -101,24 +107,55 @@
     margin-bottom: 32px;
 }
 
-.building-button{
-    padding: 16px 46px 16px 16px;
+.hero-button{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.hero-button button{
+    display: flex;
     font-size: 16px;
-    border-style: none;
-    border-radius: 4px;
-    color: white;
-    background-color: #469165;
-    margin-right: 16px;
+    font-weight: 500;
+}
+.building-button{
+    padding: 18px 20px 18px 20px;
+  font-size: 16px;
+  border-style: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #469165;
 }
 
-.how-button {
-    padding: 16px 16px 16px 46px;
-    font-size: 16px;
-    border: 1px solid white;
-    border-radius: 4px;
-    background-color: transparent;
-    color: white;
+.building-button img{
+    margin-left: 10px;
 }
+
+.hero1{
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    color: white;
+    background: #539165;
+    border-radius: 4px;
+    border: none;
+}
+
+.hero2 {
+	display: inline-flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	padding: 16px;
+	color: white;
+	background: #539165;
+	border-radius: 4px;
+	background: transparent;
+	border: 1px solid white;
+}
+
+
 
 
 /*************** Info Section ************ */
@@ -247,15 +284,19 @@
 }
 
 .call-to-action-btn button{
-    padding: 16px 46px 16px 16px;
-    font-size: 16px;
-    border-style: none;
-    border-radius: 4px;
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
     color: white;
-    background-color: #469165;
-    margin-right: 16px;
+    background: #539165;
+    border-radius: 4px;
+    border: none;
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
     margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .call-to-action-btn p{
@@ -307,3 +348,6 @@
     text-align: center;
     padding-bottom: 30px;
 }
+
+
+
