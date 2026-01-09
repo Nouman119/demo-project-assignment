@@ -39,6 +39,10 @@
 	color: #000000;
 }
 
+.menu li a:hover{
+    color: #469165;
+}
+
 .btn{
     padding: 12px 16px;
     background-color: #469165;
@@ -52,7 +56,9 @@
     text-decoration: none;
     color: white;
 }
-
+.btn:hover{
+    background-color: #007736;
+}
 
 /*************** Hero Section ************ */
 
@@ -116,6 +122,10 @@
     display: flex;
     font-size: 16px;
     font-weight: 500;
+}
+
+.hero-button button:hover{
+    background-color: #007736;
 }
 .building-button{
     padding: 18px 20px 18px 20px;
@@ -297,6 +307,11 @@
     margin-bottom: 16px;
     font-size: 16px;
     font-weight: 500;
+}
+
+.call-to-action-btn button:hover{
+    background-color: #007736;
+
 }
 
 .call-to-action-btn p{
