@@ -221,3 +221,46 @@
     font-size: 16px;
     margin-bottom: 16px;
 }
+
+/*************** Call to action Section ************ */
+
+.call-to-action-area{
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.call-to-action-area h1{
+    padding: 80px 0 16px 0px;
+    font-size: 40px;
+    color: #001931;
+    font-weight: bold;
+}
+
+.call-to-action-title p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.call-to-action-btn button{
+    padding: 16px 46px 16px 16px;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #469165;
+    margin-right: 16px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 16px;
+}
+
+.call-to-action-btn p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    padding-bottom: 80px;
+}
