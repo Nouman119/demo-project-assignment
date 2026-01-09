@@ -121,4 +121,60 @@ nav{
     background-color: transparent;
     color: white;
 }
+
+
+/*************** Info Section ************ */
+
+
+.info-card{
+    text-align: center;
+}
+
+.info-title {
+    margin-top: 70px;
+}
+
+.info-title h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.info-title p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 44px;
+}
+
+.info-card-section{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+
+.card-info{
+    max-width: 267px;
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
+   
+}
+
+.card-info img{
+    padding: 70px 104px 16px;
+}
+
+.card-info h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.card-info p{
+    color: #627382;
+    line-height: 24px;
+    font-size: 16px;
+    padding: 0 10px 20px 10px;
 }
